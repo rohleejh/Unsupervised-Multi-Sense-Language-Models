@@ -3,13 +3,15 @@ Unsupervised Multi-Sense Language Models for Natural Language Processing Tasks
 
 ## Requirements
 Code is tested on Torch7(lua) and Matlab 2017a. 
+
 Torch7 and its library can be installed via:
 ```
 sh insall_torch7_lib.sh
 ```
 
 ## Data
-Data should be put into the `data/` directory, split into `train.txt`, `valid.txt`, and `test.txt`
+Data should be put into the `data/` directory, split into `train.txt`, `valid.txt`, and `test.txt`.
+
 Please generate tensor file before training SSLM(baseline) via:
 ```
 th make_text_to_tensor.lua
